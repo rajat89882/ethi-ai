@@ -12,7 +12,8 @@ export default {
     },
   },
   plugins: [
-    function ({ addUtilities }) {
+    function ({ addUtilities })
+    {
       const newUtilities = {
         placeholder: {
           color: "#000",
